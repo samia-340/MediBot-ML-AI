@@ -82,6 +82,18 @@ Final output includes:
 ###### Conclusion
 
 MediBot demonstrates how an agentic AI pipeline can transform handwritten prescription digitization into an intelligent, scalable, and patient-centric system. By combining vision models, OCR, vector databases, and LLM reasoning, the system improves reliability, accuracy, and usability. The modular design allows easy integration of future models, retraining strategies, and parallel inference for real-world healthcare applications.
+## 📹 Demo Video
+
+Watch the MediBot Agentic AI pipeline in action:
+
+**[⬇️ Download Demo Video (36 MB)](https://github.com/samia-340/MediBot-ML-AI/releases/download/v1.0.0/medibot_video.mp4)**
+
+The video demonstrates:
+- Prescription image upload and processing
+- Automated text extraction using AI agents
+- Medicine name identification
+- Details cropping workflow
+- End-to-end pipeline execution
 ###### Author and Contact
 Samia Ahmed
 samia.ahmed.mughal@gmail.com
