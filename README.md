@@ -6,7 +6,7 @@ MediBot is a multi-agent AI system that automatically digitizes handwritten medi
 
 Handwritten medical prescriptions are difficult to digitize due to inconsistent handwriting, low image quality, and OCR limitations. Traditional OCR pipelines are rigid, error-prone, and fail to handle noisy medical text, dosage interpretation, and patient understanding. There is a need for a scalable, intelligent system that can extract structured information, correct OCR errors, and provide meaningful patient-friendly outputs.
 
-### Tools and Technologies
+## Tools and Technologies
 
 YOLOv8 – Region of Interest (ROI) detection for medicines and patient details
 
@@ -22,7 +22,7 @@ Groq LLM (LLaMA-70B) – Reasoning and patient instruction generation
 
 Python, PyTorch, OpenCV, Pandas – Core implementation stack
 
-#### Key Insights
+## Key Insights
 
 - Multi-agent architecture improves modularity, fault tolerance, and scalability
 
@@ -34,9 +34,9 @@ Python, PyTorch, OpenCV, Pandas – Core implementation stack
 
 - Fallback mechanisms ensure pipeline robustness even when individual agents fail
 
-**How to Run This Project**
+## How to Run This Project
 1. Clone the Repository
-git clone <MediBot-ML_AI>
+git clone <MediBot-ML-AI>
 cd medibot
 
 2. Install Dependencies
@@ -59,7 +59,7 @@ streamlit run scripts/streamlit_app.py
 
 Provide a prescription image path inside the script or via CLI (if extended).
 
-##### Results
+## Results
 
 - Successful detection of medicine and patient detail ROIs
 
@@ -79,14 +79,14 @@ Final output includes:
 
 - Patient-friendly health guidance summary
 
-###### Conclusion
+## Conclusion
 
 MediBot demonstrates how an agentic AI pipeline can transform handwritten prescription digitization into an intelligent, scalable, and patient-centric system. By combining vision models, OCR, vector databases, and LLM reasoning, the system improves reliability, accuracy, and usability. The modular design allows easy integration of future models, retraining strategies, and parallel inference for real-world healthcare applications.
-## 📹 Demo Video
+## Demo Video
 
 Watch the MediBot Agentic AI pipeline in action:
 
-**[⬇️ Download Demo Video (36 MB)](https://github.com/samia-340/MediBot-ML-AI/releases/download/v1.0.0/medibot_video.mp4)**
+**[⬇️ Download Demo Video ](https://github.com/samia-340/MediBot-ML-AI/releases/download/v1.0.0/medibot_video.mp4)**
 
 The video demonstrates:
 - Prescription image upload and processing
@@ -94,7 +94,7 @@ The video demonstrates:
 - Medicine name identification
 - Details cropping workflow
 - End-to-end pipeline execution
-###### Author and Contact
+## Author and Contact
 Samia Ahmed
-samia.ahmed.mughal@gmail.com
-www.linkedin.com/in/samiaahmed-datascientist
+- samia.ahmed.mughal@gmail.com
+- www.linkedin.com/in/samiaahmed-datascientist
